@@ -31,7 +31,8 @@ public class Servidor {
             // Envia a resposta JSON ao cliente
             saida.writeUTF(jsonResponse);
 
-            socket.close(); //fechar socket
+            
+		
         } catch (Exception e) {
             e.printStackTrace();
         }
